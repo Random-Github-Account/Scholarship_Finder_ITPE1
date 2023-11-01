@@ -1,0 +1,7 @@
+--- To Do ---
+
+* Make things reusable
+* Set it up so I can continue making the other pages
+* Add "Login" layout and link it properly like what sir erfe told us
+* Fix issues
+* Keep it clean / maybe add notes idk
