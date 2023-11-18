@@ -1,0 +1,293 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    background-position: center;
+    background-size: cover;
+    background-color:#232325;
+    background-attachment: fixed;
+ 
+  }
+  .content main{
+    width: 95%;
+    padding: 36px 24px;
+    margin-left: 5.5%;
+    max-height: calc(100vh - 56px);
+  }
+  
+  .content main .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .content main .header .left h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #f3f3f3;
+  }
+  
+  .content main .header .left .breadcrumb{
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+  }
+  
+  .content main .header .left .breadcrumb li{
+    color: #fbfbfb;
+  }
+  
+  .content main .header .left .breadcrumb li a{
+    color: var(--dark-grey);
+    pointer-events: none;
+  }
+  
+  .content main .header .left .breadcrumb li a.active{
+    color: var(--primary);
+    pointer-events: none;
+  }
+  
+  .content main .header .report{
+    height: 36px;
+    padding: 0 16px;
+    border-radius: 36px;
+    background: var(--primary);
+    color:  #181a1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    font-weight: 500;
+  }
+  
+  .content main .insights{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 24px;
+    margin-top: 36px;
+  }
+  
+  .content main .insights li{
+    padding: 24px;
+    background:  #717171;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    grid-gap: 24px;
+    cursor: pointer;
+  }
+  
+  .content main .insights li .bx{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content main .insights li:nth-child(1) .bx{
+    background: var(--light-primary);
+    color: #f3f3f3;
+  }
+  
+  .content main .insights li:nth-child(2) .bx{
+    background: var(--light-warning);
+    color: #f3f3f3;
+  }
+  
+  .content main .insights li:nth-child(3) .bx{
+    background: var(--light-success);
+    color: #f3f3f3;
+  }
+  
+  .content main .insights li:nth-child(4) .bx{
+    background: var(--light-danger);
+    color: #f3f3f3;
+  }
+  
+  .content main .insights li .info h3{
+    font-size: 24px;
+    font-weight: 600;
+    color:#fff;
+  }
+  
+  .content main .insights li .info p{
+    color: #fff;
+  }
+  
+  .content main .bottom-data{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 24px;
+    margin-top: 24px;
+    width: 100%;
+    color: #fbfbfb;
+  }
+  
+  .content main .bottom-data>div{
+    border-radius: 20px;
+    background:  #717171;
+    padding: 24px;
+    overflow-x: auto;
+  }
+  
+  .content main .bottom-data .header{
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .content main .bottom-data .header h3{
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .content main .bottom-data .header .bx{
+    cursor: pointer;
+  }
+  
+  .content main .bottom-data .orders{
+    flex-grow: 1;
+    flex-basis: 500px;
+  }
+  
+  .content main .bottom-data .orders table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .content main .bottom-data .orders table th{
+    padding-bottom: 12px;
+    font-size: 13px;
+
+    border-bottom: 1px solid #25252c;
+  }
+  
+  .content main .bottom-data .orders table td{
+    padding: 16px 0;
+
+  }
+  
+  .content main .bottom-data .orders table tr td:first-child{
+    display: flex;
+    align-items: center;
+    grid-gap: 12px;
+    padding-left: 6px;
+    
+  }
+  
+  .content main .bottom-data .orders table td img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .content main .bottom-data .orders table tbody tr{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .content main .bottom-data .orders table tbody tr:hover{
+    background: #25252c;
+    
+  }
+  
+  .content main .bottom-data .orders table tr td .status{
+    font-size: 10px;
+    padding: 6px 16px;
+    color:  #fbfbfb;
+    border-radius: 20px;
+    font-weight: 700;
+
+  }
+  
+  .content main .bottom-data .orders table tr td .status.completed{
+    color: rgb(62, 231, 99);
+  }
+  
+  .content main .bottom-data .orders table tr td .status.pending{
+    color: rgb(231, 177, 62);
+  }
+  
+  .content main .bottom-data .orders table tr td .status.declined{
+    color: rgb(231, 62, 62);
+  }
+  
+  .content main .bottom-data .reminders{
+    flex-grow: 1;
+    flex-basis: 300px;
+  }
+  
+  .content main .bottom-data .reminders .task-list{
+    width: 100%;
+  }
+  
+  .content main .bottom-data .reminders .task-list li{
+    width: 100%;
+    margin-bottom: 16px;
+    background: #25252c;
+    padding: 14px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .content main .bottom-data .reminders .task-list li .task-title{
+    display: flex;
+    align-items: center;
+  }
+  
+  .content main .bottom-data .reminders .task-list li .task-title p{
+    margin-left: 6px;
+  }
+  
+  .content main .bottom-data .reminders .task-list li .bx{
+  cursor: pointer;  
+  
+  }
+  
+  .content main .bottom-data .reminders .task-list li.completed{
+    border-left: 10px solid var(--success);
+  }
+  
+  .content main .bottom-data .reminders .task-list li.not-completed{
+    border-left: 10px solid var(--danger);
+  }
+  
+  .content main .bottom-data .reminders .task-list li:last-child{
+   margin-bottom: 0;
+  }
+  @media (max-width: 1200px){
+    
+    .content main{
+        width: 100%;
+        padding: 36px 24px;
+        margin-left:0%;
+        max-height: calc(100vh - 56px);
+      }
+  }

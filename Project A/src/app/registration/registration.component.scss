@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  }
+
+  *:focus {
+      outline: none;
+  }
+
+  body {
+  font-family: Arial;
+  background-color:#EAD7BB;
+  padding: 5%;
+  }
+  .registerbtn {
+  margin: 20px auto;
+  width: 700px;
+  }
+  .registration-screen {
+  background-color: #FFF;
+  padding: 15px;
+  border-radius: 10px
+  }
+
+  .app-title {
+  text-align: center;
+  color: #000000;
+  }
+
+  .registration-form {
+  text-align: left;
+  }
+  .container {
+  margin-bottom: 10px;
+
+  .control-group {
+    margin-bottom: 10px;
+  }
+  }
+  .border{
+      height: 3px;
+      background:#113946;
+      margin: 20px 0;
+      box-shadow: 0px 0px 4px 2px #FFF2D8;
+  }
+
+  .Headings{
+      font-family: Arial;
+      font-size: 2rem;
+      font-weight: Bold;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.9);;
+      margin: 50px 0px;
+      transform: translate(-0%, -70%);
+  }
+  input[type=TextStyle1], input[type=TextStyle2] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  .TextStyle1 {
+      font-family:Serif;
+      font-weight: Bold;
+      margin-left: 5px;
+      font-size: 15px;
+      color: rgba(60, 60, 60, 0.9);
+      text-align: left;
+  }
+
+  .TextStyle2 {
+      font-family: Serif;
+      font-style: italic;
+      font-weight: bold;
+      margin-left: 5px;
+      font-size: 15px;
+      color: rgba(60, 60, 60, 0.9);
+      text-align: center;
+  }
+
+  input {
+  text-align: center;
+  background-color: #ECF0F1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 200;
+  width: 200px;
+  transition: border .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .center-textbox {
+    padding: 10px;
+  }
+
+  input:focus {
+  border: 2px solid #BCA37F;
+  box-shadow: none;
+  }
+
+
+
+  .registerbtn {
+    background-color: #113946;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .registerbtn:hover {
+    opacity: 1;
+    background-color: rgba(80, 80, 80, 0.9);;
+
+  }
+
+  .login-link {
+    font-size: 12px;
+    color: #444;
+    display: block;
+      margin-top: 12px;
+  }
+
+
+

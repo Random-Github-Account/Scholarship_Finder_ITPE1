@@ -1,0 +1,49 @@
+
+h2 {
+  padding: 15px;
+  margin-bottom: 1em;
+}
+.container {
+  margin-top: 1em;
+  width: 100%;
+
+ }
+.table.table-bordered {
+  padding: 1em;
+
+}
+
+.table-bordered th {
+  cursor: pointer;
+
+}
+
+.table-bordered .caret {
+  position: relative;
+  top: 5px;
+  right: 5px;
+
+
+}
+ .btn {
+  background-color: #113946;
+  color:#FFF2D8;
+  border: #BCA37F;
+ padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 5px 2px;
+  float: right;
+
+ }
+ .btn:hover {
+  background-color: #BCA37F;
+ }
+ .footer {
+  background-color:#113946;
+  color: #FFF2D8;
+  text-align: left;
+  padding: 3px;
+  width: 100%;
+  bottom: 0;
+}

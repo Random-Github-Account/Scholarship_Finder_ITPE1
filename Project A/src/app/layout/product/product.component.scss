@@ -1,0 +1,58 @@
+body {
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+table, th, td {
+  border: 1px;
+  border-collapse: collapse;
+  width: 60%;
+
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.product {
+  color: beige;
+
+
+}
+.card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Cursive, Lucida Handwriting;
+  align-content: center;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.price {
+  color: rgb(21, 21, 21);
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #113946;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.footer {
+  background-color:#113946;
+  color: #FFF2D8;
+  text-align: center;
+  padding: 1px;
+  width: 100%;
+  bottom: 0;
+}
